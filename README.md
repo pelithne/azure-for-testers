@@ -1,6 +1,4 @@
-# azure-for-testers
-
-## AKS-security-basics
+# Azure for Testers Workshop
 
 This repository contains instructions for a workshop about using Azure for testing.
 
