@@ -152,7 +152,7 @@ Congratulations you have now successfully installed Nginx Webserver on Ubuntu Li
 
 33) Supply your subdomain name follow the following naming convention **Your Company Name-Your First Name**.
 
-34) Press Save.
+34) **Press Save**.
 
 ![Screenshot](/images/Slide25.PNG)
 
