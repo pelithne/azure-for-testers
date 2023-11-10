@@ -31,7 +31,7 @@ In this section, you will learn how to create a virtual machine running Ubuntu L
 
 ![Screenshot](/images/Slide3.PNG)
 
-4) Before we can do a deployment we must first create a resource group click on ** Create new**.
+4) Before we can do a deployment we must first create a resource group click on **Create new**.
 
 5) Name the resource group and follow the naming convention: **rg-YOUR COMPANY NAME-YOUR FIRST NAME** Click **OK**.
 
