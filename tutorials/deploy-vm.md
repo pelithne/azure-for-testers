@@ -8,7 +8,6 @@ In this section, you will learn how to set up a Ubuntu Linux Virtual Machine wit
 * Configure a domain name for your web server and access it from the Internet.
 
 
-
 ## 1.1 Prerequisites
 
 ### 1.1.1 Azure Portal
