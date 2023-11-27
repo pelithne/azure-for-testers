@@ -172,9 +172,92 @@ To ensure that only one container is used in Azure container apps, as desired by
 ![Screenshot](/images/alt/Slide1.JPG)
 
 
-44) Click on the Azure container app resource.
+44) Click on "Scale and replicas"
+45) Select the "http-scaler
 
 ![Screenshot](/images/alt/Slide2.JPG)
+
+
+46) Set max-replicas to 1
+47) Click *create* in the bottom left. This will create a new revision with the new scaling limitation.
+
+![Screenshot](/images/alt/Slide3.JPG)
+
+
+
+
+
+
+![Screenshot](/images/alt/Slide4.JPG)
+
+![Screenshot](/images/alt/Slide5.JPG)
+
+
+
+48) Go back to the resource group, and select the Azure Load Testing resource, to start building the load test.
+
+![Screenshot](/images/alt/Slide6.JPG)
+
+
+49) Select "tests" from the left hand side menu
+50) Click "create" and select URL-based test
+
+![Screenshot](/images/alt/Slide7.JPG)
+
+51) Give the test a nice name
+52) Write a brief description of the test
+53) Select "Run the test after creation"
+54) Select "Enable advanced settings"  
+55) Click next
+
+![Screenshot](/images/alt/Slide8.JPG)
+
+56) In the test plan section, click "Add request"
+
+![Screenshot](/images/alt/Slide9.JPG)
+
+57) Give the request a name
+58) Enter the URL of your Container App
+59) Select "Add"
+
+![Screenshot](/images/alt/Slide10.JPG)
+
+60) Click next
+
+![Screenshot](/images/alt/Slide11.JPG)
+
+
+61) No change is needed in "Parameters" so just click next
+
+![Screenshot](/images/alt/Slide12.JPG)
+
+
+62) Set "Engine Instances" to 3
+63) Set "Concurrent users per engine" to 250
+64) Click "Next"
+
+
+![Screenshot](/images/alt/Slide13.JPG)
+
+
+65) Set the "Test Criteria" as in the picture below
+66) Enable "Auto Stop" on the test
+67) Set "Error Percentage" to 20%. This will stop the test when error percentage goes over that threshold.
+
+![Screenshot](/images/alt/Slide14.JPG)
+
+
+
+![Screenshot](/images/alt/Slide15.JPG)
+
+![Screenshot](/images/alt/Slide16.JPG)
+
+![Screenshot](/images/alt/Slide17.JPG)
+
+![Screenshot](/images/alt/Slide18.JPG)
+
+![Screenshot](/images/alt/Slide19.JPG)
+
 
 
 
