@@ -326,12 +326,12 @@ Analyze the load metrics and understand why the test successfully passed.
 ![Screenshot](/images/alt/Slide32.JPG)
 
 
-84) Once you have finished comparing click on the **breadcrumb**
+85) Once you have finished comparing click on the **breadcrumb**
 
 ![Screenshot](/images/alt/Slide33.JPG)
 
 
-84) Export the configuration as a JMX file, this will now enable you to save your test as a code and you can now re-run the load test with the same configuration. Analyze the jmx file.
+86) Export the configuration as a JMX file, this will now enable you to save your test as a code and you can now re-run the load test with the same configuration. Analyze the jmx file.
 
 ![Screenshot](/images/alt/Slide34.JPG)
 
