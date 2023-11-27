@@ -128,7 +128,7 @@ Once you are logged into the Virtual Machine, we can now install the Nginx Webse
 
 ````bash
 sudo apt-get update -y
-apt get install nginx -y
+sudo apt-get install nginx -y
 ````
 
 Congratulations you have now successfully installed Nginx Webserver on Ubuntu Linux.
