@@ -326,7 +326,7 @@ Analyze the load metrics and understand why the test successfully passed.
 ![Screenshot](/images/alt/Slide32.JPG)
 
 
-85) Once you have finished comparing click on the **breadcrumb**
+85) Once you have finished comparing click on the **breadcrumb**.
 
 ![Screenshot](/images/alt/Slide33.JPG)
 
