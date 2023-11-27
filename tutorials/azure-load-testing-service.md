@@ -232,37 +232,106 @@ TODO: what to do with these 2?
 ![Screenshot](/images/alt/Slide12.JPG)
 
 
-62) Set **Engine Instances** to 3
-63) Set **Concurrent users per engine** to 250
-64) Click **Next**
+62) Set **Engine Instances** to **3**.
+63) Set **Concurrent users per engine** to **250**.
+64) Click **Next**.
 
 
 ![Screenshot](/images/alt/Slide13.JPG)
 
 
 65) Set the **Test Criteria** as in the picture below
-66) Enable **Auto Stop** on the test
-67) Set **Error Percentage** to 20%. This will stop the test when error percentage goes over that threshold.
+66) Set **Error Percentage** to 20%. This will stop the test when error percentage goes over that threshold.
+67) Press **Next**.
 
 ![Screenshot](/images/alt/Slide14.JPG)
 
-
+68) Press **Next**.
 
 ![Screenshot](/images/alt/Slide15.JPG)
 
+69) Press **Create**.
+
 ![Screenshot](/images/alt/Slide16.JPG)
+
+The test is initializing it may take up to 3 minutes before the test environment is ready and can start producing load.
 
 ![Screenshot](/images/alt/Slide17.JPG)
 
+Once the test has finished initializing you should now see load metrics.
+
 ![Screenshot](/images/alt/Slide18.JPG)
+
+Note that the load test failed based on the test criteria Analyze the data and identify the root cause behind it.
 
 ![Screenshot](/images/alt/Slide19.JPG)
 
+70) We now need to scale up our azure container instance, click on the breadcrumb on your top left hand side menu to get to the resource group. **rg-yourcompanyname-yourname**.
+
+![Screenshot](/images/alt/Slide20.JPG)
+
+71) Click on the **Azure container app resource**
+
+![Screenshot](/images/alt/Slide21.JPG)
+
+72) Click on **Revisions**.
+73) Click on **Inactive revisions**
+
+![Screenshot](/images/alt/Slide22.JPG)
+
+74) Click **Activate**.
+75) Press **Save**.
+76) Click on the breadcrumbs called **rg-yourcompanyname-yourname**.
+
+![Screenshot](/images/alt/Slide23.JPG)
+
+77) Click on the **Azure Load Testing Service resource**.
+
+![Screenshot](/images/alt/Slide24.JPG)
+
+78) Click on your **test**.
+
+![Screenshot](/images/alt/Slide25.JPG)
+
+79) Click  **Run**, to rerun the test with a scaled up Azure Container app instance.
+
+![Screenshot](/images/alt/Slide26.JPG)
+
+80) Provide a test description for the test.
+
+81) Press **Run**.
+
+![Screenshot](/images/alt/Slide27.JPG)
+
+82) Press the link **TestRun_xxxxxx**.
+
+![Screenshot](/images/alt/Slide28.JPG)
+
+The test is initializing, will take approx 1-3 minutes.
+
+![Screenshot](/images/alt/Slide29.JPG)
+
+Load metrics should now be visible.
+
+![Screenshot](/images/alt/Slide30.JPG)
 
 
+Analyze the load metrics and understand why the test successfully passed.
+
+![Screenshot](/images/alt/Slide31.JPG)
+
+83) Mark the two tests that you have conducted and compare the results.
+84) Click on **Compare**.
+
+![Screenshot](/images/alt/Slide32.JPG)
 
 
+84) Once you have finished comparing click on the **breadcrumb**
+
+![Screenshot](/images/alt/Slide33.JPG)
 
 
+84) Export the configuration as a JMX file, this will now enable you to save your test as a code and you can now re-run the load test with the same configuration. Analyze the jmx file.
 
+![Screenshot](/images/alt/Slide34.JPG)
 
