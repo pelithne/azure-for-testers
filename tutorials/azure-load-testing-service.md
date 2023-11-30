@@ -185,14 +185,6 @@ To ensure that only one container is used in Azure container apps, as desired by
 
 
 
-TODO: what to do with these 2?
-
-
-![Screenshot](/images/alt/Slide4.JPG)
-
-![Screenshot](/images/alt/Slide5.JPG)
-
-
 
 48) Go back to the resource group, and select the **Azure Load Testing resource**, to start building the load test.
 
