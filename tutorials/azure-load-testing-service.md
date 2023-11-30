@@ -163,7 +163,7 @@ We can observe that the number of replicas in the Azure container apps has scale
 
 As a tester, you are responsible for running a load test on a company's internet facing landing page web application, which is deployed on Azure Container Apps. The application owner expects the web application to provide fast and consistent responses to the visitors, with an average latency of no more than 800 milliseconds. The application owner also wants to keep the cost of running the web application as low as possible, and only use one container instance on Azure Container Apps if possible. You will use Azure Load Testing Service to generate realistic and scalable load on the web application, based on the requirements we will use Azure Load testing Service to create the testing criteria.
 
-#### 2.1.3.1 Preparation
+#### 2.1.3.2 Preparation
 
 To ensure that only one container is used in Azure container apps, as desired by the application owner, we have to set the maximum scaling limit of azure container apps to one container.
 
