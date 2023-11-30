@@ -327,3 +327,7 @@ Analyze the load metrics and understand why the test successfully passed.
 
 ![Screenshot](/images/alt/Slide34.JPG)
 
+Well done, you made it through again.
+
+![Screenshot](/images/dallegenerated.jpg)
+
