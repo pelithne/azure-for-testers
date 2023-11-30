@@ -323,7 +323,7 @@ Analyze the load metrics and understand why the test successfully passed.
 ![Screenshot](/images/alt/Slide33.JPG)
 
 
-86) Export the configuration as a JMX file, this will now enable you to save your test as a code and you can now re-run the load test with the same configuration. Analyze the jmx file.
+86) You can **export** the configuration as a **JMX file**, which allows you to save your test as code and run it again with the same settings. **Download** the JMX file to your computer and open it with your preferred editor to see how JMX is constructed. You will notice that developing the JMX file in the Azure portal is much easier than creating it manually by hand. The JMX file contains all the details of your load test scenario.
 
 ![Screenshot](/images/alt/Slide34.JPG)
 
